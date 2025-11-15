@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 for Innocent Nkuah</title>
+    <meta name="description" content="This site is a designed site to host my BYU pathway assigments.">
+    <meta name="author" content="Innocent Nkuah">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+    <!-- Google Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+
+    <!-- Script Links -->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/getcourses.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/modal.js" defer></script>
+
+    <!-- Style Links -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/home-logo.png" alt="Innocent Nkuah logo" width="1" height="1" loading="lazy">
+        <span>Innocent Nkuah</span>
+        <button id="hamburger" class="hamburger" aria-label="navigation links"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber">Chamber Assignment</a></li>
+            <li><a href="final/index.html">Final Project</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Home</h1>
+        <div class="sbs">
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Innocent Nkuah is an ambitious software engineering student
+                 currently honing his skills at Brigham Young University-Idaho (BYUI). 
+                 With a passion for technology and a keen interest in problem-solving,
+                  Innocent is dedicated to mastering the intricacies of software development.
+                 His journey in the tech world is marked by a commitment to 
+                learning and a desire to make a meaningful impact through his work.Growing up,
+                 Innocent always had a fascination with computers and how they functioned.
+                 This curiosity led him to explore programming languages and software design
+                 at an early age. His enthusiasm for technology only grew as he delved
+                 deeper into the world of coding, ultimately guiding him towards pursuing a
+                 degree in software engineering. At BYUI, he has found an environment that fosters
+                 innovation and encourages students to push the boundaries of their knowledge.</p>
+        </section>
+        <section class="card">
+            <h2>Photo</h2>
+            <img src="images/innocent-nk.jpg" width="250" height="250" alt="innocent nkuah" loading="lazy">
+        </section>
+    </div>
+        <section class="card courses">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div>
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+            
+        <div id="crsList" class="crsList"></div>
+        <p id="totalCredits"></p>
+    </section>
+    <dialog id="course-details"></dialog>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="#" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Icon"></a>
+            <a href="#" target="_blank"><img src="images/twitter-logo.png" alt="twitter Icon"></a>
+            <a href="#" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Icon"></a>
+            <a href="#" target="_blank"><img src="images/whatsapp-logo.png" alt="WhatsApp Icon"></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> 💻 Innocent Nkuah 💻 Accra, GHANA🏡</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    
+</body>
+</html>
