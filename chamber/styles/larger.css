@@ -1,0 +1,66 @@
+@media only screen and (min-width: 42rem) {
+    button#hamburger {
+        display: none;
+    }
+
+  nav {grid-template-rows: 1fr;}
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+    }
+    nav ul li:last-child a {border:none;}
+
+    /************ Events and Weather *************/
+    section.ew {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    /************ JOIN page *************/
+    .sbs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /************************** HOME PAGE SPOTLIGHTS HERE **************************/
+    #spot {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+
+
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /************************** DISCOVER PAGE HERE **************************/
+    #allplaces {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+       #allplaces div img {
+        width: 175px;
+      }
+
+} /* end media query */
