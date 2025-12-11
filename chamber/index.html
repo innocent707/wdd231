@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarahemla Chamber of Commerce</title>
+    <meta name="description" content="Zarahemla Chamber of Commerce home page for the cities of the Book or Mormon peoples.">
+    <meta name="author" content="Paul Cheney">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zarahemla Chamber of Commerce">
+    <meta property="og:description" content="Zarahemla Chamber of Commerce home page for the cities of the Book or Mormon peoples">
+    <meta property="og:url" content="https://paulcheney.github.io/wdd231/chamber">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://paulcheney.github.io/wdd231/chamber/images/hero.webp" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="wdd231 Zarahemla Chamber of Commerce - by Paul Cheney">
+
+    <!-- Styles -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+
+    <!-- Google Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+    <!-- Script Links -->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/currentweather.js" defer></script>
+    <script src="scripts//spotlight.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <img src="images/adamerica-logo2.avif" alt="Zarahemla" width="70" height="59">
+        <div>
+        <span>Zarahemla</span>
+        <div>Chamber of Commerce</div>
+    </div>
+        <button id="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <img src="images/gavio-microwave.jpg" width="1200" height="350" alt="Zarahemla">
+            <a href="join.html">Join Us</a>
+        </div>
+        <h1>Home</h1>
+
+        <section class="ew">
+            <div class="events">
+                <h2>Events</h2>
+                <p>Monday 6:00pm : Jacob fireside on the Allegory of the Olive Tree</p>
+                <p>Tuesday 10:00am : Coronation of Kink Noah</p>
+                <p>Wednesday 5:00pm : Archery contest for youth ages 16-18</p>
+            </div>
+            <div class="weather">
+                <h2 id="city">Weather</h2>
+                <div>
+                    <img id="weather-icon" src="images/fake.png" alt="weather-icon" width="50" height="50">
+                    <span id="report"></span>
+                </div>
+            </div>
+            <div>
+                <h2>Forecast</h2>
+                <span id="forecast"></span>
+            </div>
+        </section> <!-- End Events and Weather -->
+
+
+        <section id="spot"></section>
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <section class="address">
+            <p>Zarahemla Chamber of Commerce</p>
+            <p>77 Bountiful Way</p>
+            <p>Baja, CA 12345</p>
+            <p>info@zarahemla.org</p>
+            <p>(800) 555-2300</p>
+        </section>
+        <section class="social">
+            <a href="#"><img src="images/social-facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="#"><img src="images/social-x.svg" alt="X" width="16" height="16"></a>
+            <a href="#"><img src="images/social-linkedin.svg" alt="linkedin" width="16" height="16"></a>
+        </section>
+        <section class="project">
+            <p>WDD231 Class Project</p>
+            <p>Paul Cheney</p>
+            <p>&copy; <span id="currentyear"></span> • Paul Cheney • Utah, USA</p>
+            <p id="lastModified"></p>
+        </section>
+        
+    </footer>
+    
+</body>
+</html>

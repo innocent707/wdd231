@@ -1,0 +1,137 @@
+[
+  {
+    "id": "proj-1",
+    "title": "E-commerce Platform",
+    "description": "A full-stack e-commerce solution with user authentication, product listings, shopping cart, and payment gateway integration.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    "image": "images/projects/ecommerce.jpg",
+    "githubLink": "https://github.com/innocent707/ecommerce-platform",
+    "liveLink": "https://ecommerce.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-2",
+    "title": "Task Management App",
+    "description": "A responsive web application for managing tasks, with features like task creation, editing, deletion, and filtering.",
+    "technologies": ["Vue.js", "Firebase", "Tailwind CSS"],
+    "image": "images/projects/task-manager.jpg",
+    "githubLink": "https://github.com/innocent707/task-manager-app",
+    "liveLink": "https://tasks.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-3",
+    "title": "Real-time Chat Application",
+    "description": "A real-time chat application allowing users to send and receive messages instantly in various rooms.",
+    "technologies": ["React", "Socket.IO", "Node.js", "MongoDB"],
+    "image": "images/projects/chat-app.jpg",
+    "githubLink": "https://github.com/innocent707/realtime-chat-app",
+    "liveLink": "https://chat.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-4",
+    "title": "Weather Dashboard",
+    "description": "A simple weather dashboard displaying current weather and a 5-day forecast for any city using a third-party API.",
+    "technologies": ["HTML", "CSS", "JavaScript", "OpenWeather API"],
+    "image": "images/projects/weather-app.jpg",
+    "githubLink": "https://github.com/innocent707/weather-dashboard",
+    "liveLink": "https://weather.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-5",
+    "title": "Recipe Finder",
+    "description": "An application to search for recipes based on ingredients or dish names, fetching data from a public recipe API.",
+    "technologies": ["React", "Edamam API", "CSS Modules"],
+    "image": "images/projects/recipe-finder.jpg",
+    "githubLink": "https://github.com/innocent707/recipe-finder",
+    "liveLink": "https://recipes.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-6",
+    "title": "Blog Platform",
+    "description": "A content management system for blogging, featuring post creation, editing, and comment sections.",
+    "technologies": ["Django", "Python", "PostgreSQL", "Bootstrap"],
+    "image": "images/projects/blog-platform.jpg",
+    "githubLink": "https://github.com/innocent707/blog-platform",
+    "liveLink": "https://blog.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-7",
+    "title": "Portfolio Website v1",
+    "description": "The first iteration of my personal portfolio website, showcasing my skills and projects.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "images/projects/portfolio-v1.jpg",
+    "githubLink": "https://github.com/innocent707/portfolio-v1",
+    "liveLink": "https://v1.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-8",
+    "title": "Quiz Application",
+    "description": "An interactive quiz application with multiple-choice questions, score tracking, and instant feedback.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "image": "images/projects/quiz-app.jpg",
+    "githubLink": "https://github.com/innocent707/quiz-app",
+    "liveLink": "https://quiz.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-9",
+    "title": "Movie Search App",
+    "description": "Browse movies and view details using The Movie Database (TMDb) API.",
+    "technologies": ["React", "TMDb API", "Styled Components"],
+    "image": "images/projects/movie-app.jpg",
+    "githubLink": "https://github.com/innocent707/movie-search-app",
+    "liveLink": "https://movies.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-10",
+    "title": "Expense Tracker",
+    "description": "Track your income and expenses with this simple budget management application.",
+    "technologies": ["React", "Context API", "CSS"],
+    "image": "images/projects/expense-tracker.jpg",
+    "githubLink": "https://github.com/innocent707/expense-tracker",
+    "liveLink": "https://expense.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-11",
+    "title": "Calculator App",
+    "description": "A basic calculator application with standard arithmetic operations.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "images/projects/calculator.jpg",
+    "githubLink": "https://github.com/innocent707/calculator",
+    "liveLink": "https://calc.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-12",
+    "title": "Landing Page Template",
+    "description": "A clean and modern landing page template, fully responsive and customizable.",
+    "technologies": ["HTML5", "CSS3", "Sass"],
+    "image": "images/projects/landing-page.jpg",
+    "githubLink": "https://github.com/innocent707/landing-page-template",
+    "liveLink": "https://landing.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-13",
+    "title": "Markdown Previewer",
+    "description": "A simple tool to write Markdown and see the rendered HTML in real-time.",
+    "technologies": ["React", "JavaScript"],
+    "image": "images/projects/markdown-previewer.jpg",
+    "githubLink": "https://github.com/innocent707/markdown-previewer",
+    "liveLink": "https://markdown.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-14",
+    "title": "Pomodoro Timer",
+    "description": "A productivity timer based on the Pomodoro Technique, with customizable work and break intervals.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "images/projects/pomodoro.jpg",
+    "githubLink": "https://github.com/innocent707/pomodoro-timer",
+    "liveLink": "https://pomodoro.innocentnkuah.dev"
+  },
+  {
+    "id": "proj-15",
+    "title": "Guess My Number Game",
+    "description": "A classic number guessing game where the user tries to guess a randomly generated number.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "images/projects/guess-number.jpg",
+    "githubLink": "https://github.com/innocent707/guess-my-number",
+    "liveLink": "https://guess.innocentnkuah.dev"
+  }
+]
